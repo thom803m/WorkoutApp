@@ -1,0 +1,261 @@
+body {
+    background: url("Gym.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    font-family: helvetica, arial, sans-serif;
+}
+
+header {
+    background: black;
+    color: yellowgreen;
+    float: left;
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 55px;
+}
+
+h1 {
+    font-family: garamond, serif;
+    color: yellowgreen;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+nav {
+    background: black;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 25%;
+    min-width: 200px;
+    float: left;
+    padding: 15px;
+    border: solid black 2px;
+    border-radius: 55px;
+}
+     
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 20px;
+}
+
+nav a { 
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 3px; 
+    padding: 3px;
+    text-decoration: none;
+    border: solid darkgreen 2px;
+    color: yellowgreen;
+    background: darkslategray;
+}
+
+nav a:hover {
+    background: yellowgreen; 
+    color: darkslategray;
+}	
+
+fieldset {
+    background: black;
+    color: lightgray;
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+    padding: 15px;
+    border: solid black 2px;
+    border-radius: 55px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+fieldset ul {
+    list-style-type: none;
+}
+
+fieldset li {
+    margin-bottom: 20px;
+}
+
+section {
+    background: black;
+    color:  lightgray;
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+    padding: 15px;
+    border: solid black 2px;
+    border-radius: 55px;
+    font-family: Poppins, sans-serif;
+}
+
+section img{ 
+    width: 350px;
+    max-width: auto;
+    float: right; 
+    margin: auto;
+    padding: 30px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section li {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+div ul {
+    list-style-type: none;
+}
+
+div li {
+    margin-bottom: 20px;
+}
+
+div a {
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 3px; 
+    padding: 3px;
+    text-decoration: none;
+    border: solid darkgreen 2px;
+    color: yellowgreen;
+    background: darkslategray;
+}
+
+div a:hover {
+    background: yellowgreen; 
+    color: darkslategray;
+}
+
+table { 
+    padding: 20px;
+}
+
+tr {
+    background-color: green;
+    text-align: center;
+    padding: 1em;
+}
+
+footer {
+    background: black;
+    color:  lightgray;
+    margin-top: 20px;
+    float: left;
+    width: 95%;
+    padding: 15px;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 55px;
+}
+
+.btnSubmit {
+    border:1px solid black;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.interest {
+    color: red;
+}
+
+.background {
+    color: green;
+}
+
+.contact {
+    color: blue;
+}
+
+.news1 {
+    width: 400px;
+    height: 260px; 
+    float: left; 
+    margin: auto;
+    padding: 15px;
+}
+
+.news2 {
+    width: 400px;
+    height: 260px; 
+    float: left; 
+    margin: auto;
+    padding: 15px;
+}
+
+.news3 {
+    width: 400px;
+    height: 260px; 
+    float: left; 
+    margin: auto;
+    padding: 15px;
+}
+
+.sentence {
+    font-style: italic; 
+    color: lightseagreen;
+}
+
+#submit {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#clear {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#columns {
+    font-size: 18px;
+    margin: 20%;
+    background-color: darkgreen;
+    padding: 1%;
+    width: 10%;
+}
+
+#row {
+    background-color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 1%;
+    width: 20%;
+}
+
+#credits {
+    font-size: .7em;
+}
+
+#credits a {
+    color: yellowgreen;
+}

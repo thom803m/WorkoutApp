@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<title>BMI</title>
+        <script src="App.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="Phone.css">
+        <link rel="stylesheet" type="text/css" href="Desktop.css"
+                 media="screen and (min-width: 800px)">
+	</head>
+	<body>
+		<header>
+			<h1>Never doubt to Workout</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="trainer.html">Trainers</a></li>
+				<li><a href="course.html">Courses</a></li>
+				<li><a href="bmi.html">BMI</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact US</a></li>
+			</ul>
+		</nav>
+        <section>
+            <h1>Your own BMI calculator</h1><br>
+            <label for="weight">Insert your weight (lb)</label>
+            <input id='weight' type="numbers"><br>
+            <label for="height">Insert your height</label>
+            <input id='height' type="numbers"><br><br>
+            <button id="submit" onclick='CalculateBMI()'>Submit</button>
+            <button id="clear" onclick='Reload()'>Clear</button>
+            <p id='heading'></p>
+            <p id='bmi-output'></p>
+            <p id='message'></p><br>
+            <h2>What is body mass index (BMI)?</h2>
+            <p>Body mass index (BMI) is a medical screening tool that measures the ratio of your height to your weight to estimate the amount of body fat you have. Healthcare providers calculate BMI by using weight in kilograms (kg) divided by the square of height in meters (m2).<br><br>
+                In most people, BMI correlates to body fat — the higher the number, the more body fat you may have — but it's not accurate in some cases. BMI alone does not diagnose health. Healthcare providers use BMI and other tools and tests to assess someone's health status and risks.<br><br>                
+                High body fat may lead to heart disease, stroke and Type 2 diabetes. Low body fat may be related to malnutrition. Just the right amount of body fat helps vitamins and minerals get into your body. It also provides a source of energy for your body, helps maintain body temperature and protects your organs.<br><br>                
+                You should not use the standard BMI chart to evaluate a child's or teenager's weight. Talk to your child's healthcare provider about the optimum weight range for their age and height.
+            </p><br>
+            <h2>What is BMI used for?</h2>
+            <p>Healthcare providers use BMI to help diagnose weight types and as a screening tool for certain health conditions.<br><br>
+            <h2>How do I calculate my BMI?</h2>
+            <p>You can calculate BMI yourself with these steps:
+            </p>
+            <article>
+                <ul><li>Multiply your weight in pounds by 703.</li></ul>
+                <ul><li>Divide that answer by your height in inches (there are 12 inches in 1 foot).</li></ul>
+                <ul><li>Divide that answer by your height in inches again.</li></ul>
+            </article>
+            <p>For example, a person who weighs 180 lbs. and is 5 feet and 5 inches tall (65 inches total) would calculate their BMI in the following way:
+            </p>
+            <p>
+                <ul><li>180 x 703 = 126,540.</li></ul>
+                <ul><li>126,540 / 65 = 1,946.769.</li></ul>
+                <ul><li>1,946.769 / 65 = 29.95.</li></ul>
+                <ul><li>Their BMI would be 29.9.</li></ul>
+            </p>
+            <h2>What is a healthy BMI?</h2>
+            <p>The optimum range for a healthy BMI is considered to be 18.5 to 24.9.<br><br>
+                It's important to remember that body fatness isn't the only determiner of overall health. Several other factors, such as genetics, activity level, smoking cigarettes or using tobacco, drinking alcohol and mental health conditions all affect your overall health and your likelihood of developing certain medical conditions. 
+            </p><br><br>
+        </section>
+        <footer>
+			<p>
+				&copy; Never Doubt Inc - 2024
+			</p>
+			<p id="credits">Helpdisk <a href="index.html">
+						tblancestremere@gmail.com</a>
+			</p>
+		</footer>
+	</body>
+</html>
